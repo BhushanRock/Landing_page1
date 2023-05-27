@@ -1,0 +1,221 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+}
+nav{
+background-color: black;
+color: white;
+}
+/*nav list............................*/
+nav li {
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 20px;
+    padding:20px;
+}
+
+/* image addition.......................... */
+img{
+    width:100%;
+    height:100%;
+    
+
+}
+/* Social media icon I have also add refrences............................. */
+.fa{
+    padding: 40px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 2px;
+
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #e30e38;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+/* hover on nav menu............................ */
+nav li:hover{
+    border-radius: 20px;
+    background-color: orange;
+    color:black;
+    font-style:bold;
+}
+.gym{
+    /* position: relative; */
+    background-image: url(background.avif);
+    width:100%;
+    height:650px;
+    font-style: bold;
+}
+.text{
+    display: flex;
+    justify-content: center;
+   padding-top: 15%;
+    font-size: 55px;
+}
+.btn a{
+    display: flex;
+    /* position: absolute; */
+    
+    width:300px;
+    margin-left:40%;
+    justify-content: center;
+    background-color: #a1b10c;
+    font-size: 60px;
+    text-decoration: none;
+    border-radius: 15px;
+   color: rgb(12, 12, 12);
+}
+.btn a:hover{
+  background-color: #dd4b39;
+  color: whitesmoke;
+}
+#about{
+  border: 2px solid black;
+  height: 400px;
+  margin-top: 20px;
+  position: relative;
+  display:inline-block;
+  margin-left: 50px;
+  
+}
+.img1{
+  width: 300px;
+  height:300px;
+}
+  
+
+.txt1{
+border:2px solid red;
+width:20%px;
+font-size: 20px;
+position: absolute;
+
+
+}
+#about:hover{
+  border: 2px solid #f3b353;
+  background-color: #f3b353;
+
+}
+form{
+  background: rgba(228, 208, 156, 0.8);
+  width:auto;
+  margin: 50px auto;
+  max-width: 95%;
+  border-radius: 4px;
+  padding: 55px 30px;
+}
+
+form .title h2{
+  letter-spacing: 6px;
+  border-bottom: 1px solid rgb(12, 12, 12);
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-bottom: 32px;
+}
+
+form .half{
+  display: flex;
+  justify-content: space-between;
+}
+
+form .half .item{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  width: 48%;
+}
+
+form label{
+  display: block;
+  font-size: 13px;
+  letter-spacing: 3.5px;
+  margin-bottom: 16px;
+}
+
+form .half .item input{
+  border-radius: 4px;
+  border: 1px solid rgb(19, 18, 18);
+  outline: 0;
+  padding: 16px;
+  width: 50%;
+  height: 44px;
+  background: transparent;
+  font-size: 17px;
+}
+
+form .full{
+  margin-bottom: 24px;
+}
+
+
+
+form .action{
+  margin-bottom: 32px;
+}
+
+form .action input{
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid rgb(16, 15, 15);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  height: 44px;
+  letter-spacing: 3px;
+  outline: 0;
+  padding: 0 20px 0 22px;
+  margin-right: 10px;
+}
+
+form .action input[type="submit"]{
+  background: white;
+  color: black;
+}
+
+form .icons a{
+  border: 1px solid rgb(8, 8, 8);
+  border-radius: 50%;
+  line-height: 36px;
+  text-align: center;
+  font-weight: 600;
+  width: 38px;
+  margin-right: 10px;
+}
